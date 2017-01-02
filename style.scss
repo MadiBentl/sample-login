@@ -11,8 +11,11 @@ body{
   background-color: $offWhite;
 }
 div{
-  background-color:green;
+  background-color:$primaryGreen;
   text-align: center;
+}
+#homepage{
+  background-color: $skyBlue;
 }
 #container{
   width: 25%;

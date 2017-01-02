@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter; }
+
+body {
+  background-color: #DDFFF7; }
+
+div {
+  background-color: green;
+  text-align: center; }
+
+#container {
+  width: 25%;
+  margin: 0 auto; }
+
+#navbar {
+  width: 100%;
+  margin: 0px;
+  background-color: #04724D; }
+  #navbar :last-child :last-child {
+    color: #D2AB99; }
+  #navbar ul {
+    color: #91DB67;
+    display: inline;
+    padding: 10px;
+    margin: 10px; }
+    #navbar ul li {
+      display: inline;
+      margin: 20px;
+      padding: 10px; }
+
+h2 {
+  display: inline;
+  color: white; }
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 0px;
+  border: none; }
+  button:hover {
+    background-color: green; }
+
+/*# sourceMappingURL=style.css.map */

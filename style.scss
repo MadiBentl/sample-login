@@ -1,0 +1,55 @@
+$primaryGreen: #91DB67;
+$secondaryGreen: #04724D;
+$highlightPink: #D2AB99;
+$offWhite: #DDFFF7;
+$skyBlue: #93E1D8;
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+body{
+  background-color: $offWhite;
+}
+div{
+  background-color:green;
+  text-align: center;
+}
+#container{
+  width: 25%;
+  margin: 0 auto;
+}
+#navbar{
+  width: 100%;
+  margin:0px;
+  background-color: $secondaryGreen;
+  & :last-child{
+    & :last-child{
+      color:$highlightPink;
+    }
+  }
+  ul{
+    color:$primaryGreen;
+    display:inline;
+    padding: 10px;
+    margin: 10px;
+    li{
+      display:inline;
+      margin: 20px;
+      padding: 10px;
+    }
+  }
+}
+h2{
+  display:inline;
+  color: white;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 0px;
+  border: none;
+  &:hover{
+    background-color: green;
+  }
+}

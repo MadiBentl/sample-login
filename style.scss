@@ -14,8 +14,17 @@ div{
   background-color:$primaryGreen;
   text-align: center;
 }
-#homepage{
+#jumbotron{
   background-color: $skyBlue;
+  width: 75%;
+  display: inline;
+  float:left;
+  height:100%;
+}
+#sidebar{
+  width:25%;
+  display:inline;
+  float:right;
 }
 #container{
   width: 25%;

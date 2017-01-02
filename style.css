@@ -9,8 +9,17 @@ div {
   background-color: #91DB67;
   text-align: center; }
 
-#homepage {
-  background-color: #93E1D8; }
+#jumbotron {
+  background-color: #93E1D8;
+  width: 75%;
+  display: inline;
+  float: left;
+  height: 100%; }
+
+#sidebar {
+  width: 25%;
+  display: inline;
+  float: right; }
 
 #container {
   width: 25%;
